@@ -42,9 +42,9 @@
     @AfterClass
     public static void tearDown() {
         WebElement buttonProf = driver.findElement(By.xpath("html/body/div[3]/ui-view/div/nav/div[2]/ul[1]/li[12]/a"));
-        buttonProf.click();
-        WebElement buttonLoginout = driver.findElement(By.xpath("/html/body/div[3]/ui-view/div/main/div/div/button"));
-        buttonLoginout.click();
+//        buttonProf.click();
+//        WebElement buttonLoginout = driver.findElement(By.xpath("/html/body/div[3]/ui-view/div/main/div/div/button"));
+//        buttonLoginout.click();
        driver.quit();
     }
 }
